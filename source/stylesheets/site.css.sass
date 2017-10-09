@@ -2,11 +2,7 @@ $color-blue: #0C2340
 $color-pink: #EF426F
 $color-dark-pink: #CC2952
 $color-gray: #ADADAD
-$font: Helvetica, sans-serif
-$font-lighter: Helvetica
-$font-regular: Helvetica
-$font-bold: Helvetica
-$font-bolder: Helvetica
+$font: "Helvetica", "Open Sans", sans-serif
 
 $color-danger: #A21D3F
 $color-success: #0CA221
@@ -20,38 +16,63 @@ body
 h1
   font-size: 3em
   line-height: 1.05em
-  font-family: $font-bolder
+  font-family: $font
 
 h2
   font-size: 2.25em
   line-height: 1.25em
-  font-family: $font-bolder
+  font-family: $font
 
 h3
   font-size: 1.75em
   line-height: 1.25em
-  font-family: $font-bolder
+  font-family: $font
 
 h4
   font-size: 1.125em
   line-height: 1.222222em
-  font-family: $font-bolder
+  font-family: $font
 
 h5
   font-size: 1em
   line-height: 1.375em
-  font-family: $font-bolder
+  font-family: $font
 
 p
   font-size: 1em
   line-height: 1.375em
-  font-family: $font-lighter
+  font-family: $font
+  font-weight: lighter
 
 .bg-light
-  background-color: #C55B8E !important
+  background-color: #7F3B5C !important
 .nav-link
-  color: #FFFFFF !important
+  color: #C55B8E !important
 .nav-link:hover
-  color: #7F3B5C !important
+  color: #FF76B9 !important
 .navbar-brand
-  color: #FFFFFF !important
+  color: #C55B8E !important
+.navbar-brand:hover
+  color: #FF76B9 !important
+
+.hero
+  min-height: 40vw
+  background-image: image-url('lead.jpg')
+  background-repeat: no-repeat
+  background-size: 100%
+.propuesta
+  min-height: 20vh
+  background-color: #C55B8E
+  padding: 10vh 20vw
+  text-align: center
+  h3
+    color: #7F3B5C
+    font-weight: bolder
+  p
+    color: #FFF
+.services
+  min-height: 20vh
+  padding: 10vh 5vw
+  h3
+    font-weight: bolder
+    color: #C55B8E
