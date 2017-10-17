@@ -1,29 +1,70 @@
-nav.navbar.navbar-expand-lg.navbar-light.bg-light
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand href="#inicio" MYNA ROSAS URIBE
   button.navbar-toggler aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button"
     span.navbar-toggler-icon
   #navbarNavAltMarkup.collapse.navbar-collapse
-    .navbar-nav
-      a.nav-item.nav-link.active href="#"
-        | INICIO
-        span.sr-only (current)
-      a.nav-item.nav-link href="#" EXPERIENCIA
-      a.nav-item.nav-link href="#" ESTUDIOS
-      a.nav-item.nav-link href="#" ENLACES
-      a.nav-item.nav-link href="#" CONSULTAS
+    .navbar-nav.ml-auto
+      a.nav-item.nav-link href="#propuesta" PROPUESTA
+      a.nav-item.nav-link href="#estudios" ESTUDIOS
+      a.nav-item.nav-link href="#consultas" CONSULTAS
 .container-fluid
-  .row.hero
+  .row.hero#inicio
     .col-md-12
   .row.services
     .col-md-4
-      h3 PAREJAS
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      h3 COMPROMISO
+      p Todos hemos pasado por momentos difíciles. Sin importar si sufres de problemas de pareja, depresión, ansiedad, fobias, duelo o baja autestima, entre otros, ten la seguridad de que mi compromiso es comprenderte y mi propósito apoyarte para que tú puedas lograr el cambio que deseas alcanzar.
     .col-md-4
-      h3 FAMILIAS
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      h3 EXPERIENCIA
+      p He ayudado a cientos de personas a mejorar sus relaciones personales, de pareja o familiares. Utilizando recursos como hipnosis, terapia breve, terapia cognitiva conductual, modificación de conducta, EMDR y tanatología, busco darte herramientas para que construyas una vida plena y en armonía.
     .col-md-4
-      h3 DEPRESION
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  .row.propuesta
-    .col-md-12
+      h3 BIENVENIDO/A
+      p Mi objetivo es guiarte hacia una armonía en tus relaciones y ofrecerte conceptos para la vida, que te acerquen recursos y estrategias para caminar por ella con mayor claridad. Estará en ti encontrar el significado en cada nueva idea y atribuirle un sentido útil, que repercuta en beneficios para tu vida.
+  .row.propuesta#propuesta
+    .col-md-2
+    .col-md-8
       h3 TU PUEDES CAMBIAR
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      p Mi objetivo como psicoterapeuta es guiarte hacia una armonía en tus relaciones y en tu comunicación interpersonal; ofrecerte conceptos para la vida, que te acerquen recursos y estrategias para caminar por ella con mayor claridad. <b>Sólo es necesario que tengas la voluntad para tomarlos y la disposición favorable para reaprender y cambiar.</b> Tendrás así nuevos aprendizajes que te modificarán y te ampliarán los preexistentes, y que darán fundamento a otros esquemas mentales que puedan resultarte más funcionales.
+    .col-md-2
+  .row.estudios#estudios
+    .col-md-12
+      h3 ESTUDIOS
+    .col-md-4
+      h4 PROFESIONALES
+    .col-md-7
+      ul
+        li Posdoctorado en Psicología en el Laboratorio de Ciencia Cognitiva<br>Facultad de Psicología de la Universidad Autónoma de Nuevo León
+        li Doctorado en Psicología<br>Universidad Autónoma de Nuevo León, graduada con el Primer Lugar de la generación y con Honores
+        li Maestría en Desarrollo del Sobredotado y Talentoso<br>Universidad de las Américas
+        li Licenciatura en Psicología<br>Universidad Veracruzana
+        li Premio a la Investigación 2009<br>Universidad Autónoma de Nuevo León, por trabajos de investigación en Ansiedad y Depresión
+    .col-md-1
+    .col-md-4
+      h4 ESPECIALIDADES
+    .col-md-7
+      ul
+        li Especialidad en Terapia de Familia y Terapia Breve<br>Centro de Atención Psicológica a la Familia
+        li Diplomado en Terapia Breve<br>Instituto Mexicano de Terapias Breves, avalado por el Mental Research Institute de Palo Alto, California, USA
+        li Entrenamiento en Hipnosis Ericksoniana<br>Instituto Milton H. Erickson de la Cd. de México
+        li Entrenamiento en Psicoterapia EMDR<br>Instituto EMDR de México
+        li Diplomado en Tanatología<br>Universidad Iberoamericana, Campus Monterrey
+        li Especialización en Trastornos del Estado de Ánimo y Ansiedad<br> Universidad de León y el Instituto de Altos Estudios Universitarios de Barcelona, España
+    .col-md-1
+  .row.consultas#consultas
+    .col-md-12
+      h3 CONSULTAS
+    .col-md-2
+    .col-md-8
+      iframe frameborder="0" height="360" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=305+Sat%C3%A9lite,+Monterrey,+M%C3%A9xico&amp;sll=25.629718,-100.272946&amp;sspn=0.009905,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=Europa,+Monterrey,+Nuevo+Le%C3%B3n,+Mexico&amp;ll=25.632395,-100.273504&amp;spn=0.013813,0.038152&amp;z=15&amp;iwloc=A&amp;output=embed"
+    .col-md-2
+    .col-md-2
+    .col-md-8
+      h4 CONTACTO
+      p Si deseas una cita, deja tu mensaje llamando al <b>(81) 1100.1154</b> o escribiéndome a #{ mail_to 'meru1000@gmail.com' }
+
+      h4 COSTO
+      p $2,000 por sesión de 1.5 horas
+
+      h4 DIRECCIÓN
+      p Satélite 305<br>Entre Europa y Titania<br>Contry<br>Monterrey, NL<br>México  64860
+    .col-md-2
