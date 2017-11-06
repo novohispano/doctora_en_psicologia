@@ -49,6 +49,11 @@ p, ul, ol, li
 .navbar-brand:hover
   color: #FF76B9 !important
 
+a.navbar-brand.mobile
+  display: none
+a.navbar-brand.desktop
+  display: block
+  
 .hero
   min-height: 40vw
   background-image: image-url('lead.jpg')
@@ -164,3 +169,9 @@ p, ul, ol, li
     min-height: 50vh
     background-size: cover
     background-position: 70% 50%
+
+@media (max-width: 768px)
+  a.navbar-brand.mobile
+    display: block
+  a.navbar-brand.desktop
+    display: none
