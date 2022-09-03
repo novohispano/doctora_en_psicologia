@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '~> 2.6.3'
+ruby '~> 3.1.2'
 
-gem 'middleman', '~> 4.2'
-gem 'middleman-autoprefixer', '~> 2.7'
-gem 'middleman-livereload', '~> 3.4.3'
+gem 'middleman'
+gem 'middleman-autoprefixer'
+gem 'middleman-livereload'
 gem 'slim'
 
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
